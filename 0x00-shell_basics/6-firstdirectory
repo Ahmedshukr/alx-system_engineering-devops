@@ -1,2 +1,2 @@
 #!/bin/bash
-mktemp 6-firstdirectory
+mktemp -d 6-firstdirectory
