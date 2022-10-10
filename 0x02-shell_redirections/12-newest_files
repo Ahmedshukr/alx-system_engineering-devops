@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -exec stat -c '%X %n' {} \; | sort -nr | head
+ls -t | head
